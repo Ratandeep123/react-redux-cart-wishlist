@@ -28,6 +28,56 @@
   color: #61dafb;
 }
 
+
+/* 
+*/
+
+.btn-wrapper button {
+  /* width: 100px; */
+  background-color: #e5d3d3;
+  border-radius: 5px;
+  border: aliceblue;
+  padding: 10px;
+  color: red;
+}
+.btn-wrapper .button-remove{
+  background-color: blue;
+  border-radius: 5px;
+  border: aliceblue;
+  padding: 10px;
+  color: red;
+}
+.img-wrapper{
+  float: left !important;
+  padding: 4px;
+}
+.text-wrapper {
+  display: -ms-inline-grid;
+}
+.card{
+  position: inherit;
+  display: flex;
+  /* flex-direction: column; */
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  width: fit-content;
+}
+.cart-count{
+  position: absolute;
+  right: 130px;
+  top: 10px;
+  z-index: 1;
+  background-color: red;
+  padding: 20px;
+  height: 59px;
+  border-radius: 50%;
+  color: #fff;
+}
+/*  */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
